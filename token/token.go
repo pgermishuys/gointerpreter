@@ -30,13 +30,15 @@ const (
 	LBRACE    = "{"
 	RBRACE    = "}"
 	// Keywords
-	FUNCTION = "FUNCTION"
-	LET      = "LET"
-	TRUE     = "TRUE"
-	FALSE    = "FALSE"
-	IF       = "IF"
-	ELSE     = "ELSE"
-	RETURN   = "RETURN"
+	FUNCTION   = "FUNCTION"
+	LET        = "LET"
+	TRUE       = "TRUE"
+	FALSE      = "FALSE"
+	IF         = "IF"
+	ELSE       = "ELSE"
+	RETURN     = "RETURN"
+	EQUALS     = "=="
+	NOT_EQUALS = "!="
 )
 
 var keywords = map[string]TokenType{
